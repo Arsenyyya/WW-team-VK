@@ -1,0 +1,52 @@
+{
+  "mode": "demo",
+  "is_demo": true,
+  "products": [
+    {
+      "id": "demo-cup",
+      "name": "Кружка «Тихое утро»",
+      "seller": "Демо · мастерская",
+      "price_minor": 180000,
+      "stock": 6,
+      "route": "standard",
+      "description": "Керамика ручной работы · 300 мл",
+      "color": "#DAE4EF",
+      "symbol": "☕"
+    },
+    {
+      "id": "demo-vase",
+      "name": "Ваза по вашему эскизу",
+      "seller": "Демо · мастерская",
+      "price_minor": 420000,
+      "stock": 1,
+      "route": "custom",
+      "description": "Изготовление после согласования · 14 дней",
+      "color": "#E9E1F0",
+      "symbol": "◒"
+    },
+    {
+      "id": "demo-bread",
+      "name": "Набор свежего хлеба",
+      "seller": "Демо · локальная пекарня",
+      "price_minor": 65000,
+      "stock": 12,
+      "route": "food",
+      "description": "Самовывоз сегодня · зона «Центр»",
+      "color": "#F4E4D0",
+      "symbol": "◓"
+    },
+    {
+      "id": "demo-external",
+      "name": "Товар внешнего магазина",
+      "seller": "Демо · внешний маршрут",
+      "price_minor": 250000,
+      "stock": 1,
+      "route": "external",
+      "description": "Фиксируется только переход, покупка неизвестна",
+      "color": "#DCEBE6",
+      "symbol": "↗"
+    }
+  ],
+  "local_orders": 0,
+  "app": ".venv/bin/streamlit run app/streamlit_app.py -- --demo"
+}

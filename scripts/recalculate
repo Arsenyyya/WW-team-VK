@@ -1,0 +1,6 @@
+#!/bin/sh
+set -eu
+task_root=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+cd "$task_root"
+.venv/bin/vk-case run --input-dir data/raw --output-dir outputs "$@"
+.venv/bin/python scripts/package_results.py "$@"

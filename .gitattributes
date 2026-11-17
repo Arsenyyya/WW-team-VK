@@ -1,0 +1,9 @@
+# Preserve source and artifact bytes: SHA-256 must survive a clone on any OS.
+* -text
+*.pdf binary
+*.xlsx binary
+*.pptx binary
+*.parquet binary
+*.ttf binary
+*.png binary
+*.zip binary

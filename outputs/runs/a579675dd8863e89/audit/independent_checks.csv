@@ -1,0 +1,16 @@
+metric_id,independent,pipeline,matches
+businesses,9754.0,9754.0,True
+goods_businesses,4158.0,4158.0,True
+selling_goods,285.0,285.0,True
+goods_orders,3458.0,3458.0,True
+goods_gmv,9865067.0,9865067.0,True
+goods_aov,2852.8244650086754,2852.8244650086754,True
+all_orders,3478.0,3478.0,True
+all_sellers,298.0,298.0,True
+original_missing,2570.0,2570.0,True
+missing_aov_sellers,7.0,7.0,True
+orders_without_current_checkout,14.0,14.0,True
+candidates,966.0,966.0,True
+candidates_handmade,97.0,97.0,True
+candidates_hobby,51.0,51.0,True
+candidates_food,103.0,103.0,True

@@ -1,0 +1,110 @@
+- source_id: CASE
+  publisher: Организаторы VK Case Champ
+  title: Условия отборочного этапа
+  url: data/raw/case.pdf
+  published: null
+  checked: '2026-11-17'
+  data_period: '2026'
+  type: primary_case
+  availability: read_36_pages
+  supports: 'пять вопросов; синтетический датасет; 8 слайдов; раскрытие ИИ; срок 22 ноября 09:00 без часового пояса'
+- source_id: DATA
+  publisher: Организаторы VK Case Champ
+  title: Датасет 1 — семь листов
+  url: data/raw/dataset.xlsx
+  published: null
+  checked: '2026-11-17'
+  data_period: '2026-09'
+  type: primary_dataset
+  availability: read_all_sheets
+  supports: 'числовые факты только текущей синтетической выборки'
+- source_id: VK1
+  publisher: VK
+  title: Авторы ВКонтакте заработали 1,6 млрд рублей на шопсах
+  url: https://vk.company.ru/ru/press/releases/12423/
+  published: '2026-09-29'
+  checked: '2026-11-17'
+  data_period: год работы шопсов
+  type: company_statement
+  availability: opened_full_text
+  supports: 'шопсы и реферальная программа уже существуют; автор получает процент с покупок из публикации; база — VK AdBlogger'
+- source_id: OZ1
+  publisher: Ozon Seller
+  title: 'Комиссии и тарифы Ozon: за что платят продавцы'
+  url: https://seller.ozon.ru/media/beginners/za-chto-platyat-prodavcy-na-ozon/
+  published: '2026-09-01'
+  checked: '2026-11-17'
+  data_period: описание на дату проверки
+  type: platform_documentation
+  availability: opened_full_text
+  supports: 'расходы включают вознаграждение за продажу, эквайринг, логистику и дополнительные услуги; тариф зависит от категории и схемы'
+- source_id: TT1
+  publisher: TikTok for Business
+  title: How to set up a target collaboration in Seller Center
+  url: https://ads.tiktok.com/resources/help/article/how-to-set-up-a-target-collaboration-in-seller-center
+  published: '2025-08'
+  checked: '2026-11-17'
+  data_period: механика сотрудничества
+  type: platform_documentation
+  availability: opened_full_text
+  supports: 'target collaboration допускает фиксированную плату или комиссию при продаже; это механика, не доказательство uplift'
+- source_id: WB1
+  publisher: Wildberries
+  title: Раздел «Тарифы» на портале продавца
+  url: https://seller.wildberries.ru/instructions/ru/ru/material/fees-site-section
+  published: null
+  checked: '2026-11-17'
+  data_period: на дату проверки
+  type: platform_documentation
+  availability: partial_navigation_only
+  supports: 'существует раздел тарифов; точные ставки и применимость категории не подтверждены этой проверкой'
+- source_id: AV1
+  publisher: Авито
+  title: Авито для бизнеса
+  url: https://www.avito.ru/business
+  published: null
+  checked: '2026-11-17'
+  data_period: null
+  type: platform_documentation
+  availability: unavailable
+  supports: 'не используется как подтверждённый источник; сравнение классифайда — аналитическая гипотеза для проверки'
+- source_id: VK2
+  publisher: VK Реклама
+  title: Чек-лист для селлеров по запуску рекламы
+  url: https://ads.vk.com/insights/chek-list-dlya-sellerov-po-zapusku-reklamy
+  published: null
+  checked: '2026-11-17'
+  data_period: null
+  type: platform_documentation
+  availability: unavailable
+  supports: 'конкретные настройки магазина требуют ручного аудита; не объявлены проверенными'
+- source_id: DI1
+  publisher: Data Insight
+  title: Интернет-торговля в России 2026
+  url: https://datainsight.ru/DI_eCommerce_2026
+  published: '2026-03-31'
+  checked: '2026-11-17'
+  data_period: '2025'
+  type: market_research
+  availability: opened_full_text
+  supports: 'оценка рынка 13,4 трлн ₽ и 8,3 млрд заказов; не доступная выручка VK'
+- source_id: AK1
+  publisher: АКИТ
+  title: '11,5 трлн рублей: итоги интернет-торговли за 2025 год'
+  url: https://akit.ru/news/11-5-trln-rublej-akit-podvela-itogi-internet-torgovli-za-2025-god
+  published: '2026-02-19'
+  checked: '2026-11-17'
+  data_period: '2025'
+  type: industry_estimate
+  availability: opened_full_text
+  supports: 'оценка рынка 11,5 трлн ₽; не усреднять с Data Insight без сопоставления методик'
+- source_id: STAT
+  publisher: statsmodels
+  title: NormalIndPower.solve_power
+  url: https://www.statsmodels.org/stable/generated/statsmodels.stats.power.NormalIndPower.solve_power.html
+  published: null
+  checked: '2026-11-17'
+  data_period: документация
+  type: technical_primary
+  availability: opened_full_text
+  supports: 'планирование независимых групп; ratio — отношение размеров второй и первой групп'

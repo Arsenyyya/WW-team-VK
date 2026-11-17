@@ -1,0 +1,71 @@
+{
+  "prepared_on": "2026-11-18",
+  "seed": 2026,
+  "bootstrap_repetitions": 1000,
+  "minimum_group": 30,
+  "team": {
+    "name": "WW team",
+    "city": "Санкт-Петербург",
+    "members": [
+      "Савватеев Глеб",
+      "Бочковский Андрей",
+      "Веселкин Арсений",
+      "Павлов Арсений"
+    ],
+    "universities": [
+      "ГУАП",
+      "ГУАП",
+      "ГУАП",
+      "ИТМО"
+    ]
+  },
+  "scenarios": [
+    {
+      "name": "Низкий",
+      "delta_activation": 0.02,
+      "orders_per_seller": 3,
+      "realized_value_share": 0.7
+    },
+    {
+      "name": "Базовый",
+      "delta_activation": 0.04,
+      "orders_per_seller": 5,
+      "realized_value_share": 0.8
+    },
+    {
+      "name": "Высокий",
+      "delta_activation": 0.07,
+      "orders_per_seller": 7,
+      "realized_value_share": 0.85
+    },
+    {
+      "name": "Стресс",
+      "delta_activation": -0.01,
+      "orders_per_seller": 3,
+      "realized_value_share": 0.7
+    }
+  ],
+  "economics": {
+    "net_service_rate": 0.02,
+    "gross_margin": null,
+    "acquisition_cost": 0,
+    "fulfillment_and_return_costs": 0,
+    "labor_cost": 0,
+    "incremental_ad_revenue": 0,
+    "net_partner_revenue": 0,
+    "variable_costs": 0,
+    "subsidies": 0,
+    "support_costs": 0,
+    "cannibalized_contribution": 0,
+    "investment": 574000,
+    "retention": 0.8,
+    "horizon_months": 12
+  },
+  "experiment": {
+    "p0": 0.0685,
+    "p1": 0.0985,
+    "alpha": 0.05,
+    "power": 0.8,
+    "ratio": 1.0
+  }
+}

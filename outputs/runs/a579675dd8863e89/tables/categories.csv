@@ -1,0 +1,73 @@
+category,metric_id,scope,value,availability,source_ref
+Гардероб,opens,market,33022954,available,Маркет Вконтакте — категории!B2
+Гардероб,orders,market,29029,available,Маркет Вконтакте — категории!C2
+Гардероб,opens,partner,9023244,available,Маркет Вконтакте — категории!D2
+Гардероб,orders,partner,259808,available,Маркет Вконтакте — категории!E2
+Хобби и развлечения,opens,market,32048705,available,Маркет Вконтакте — категории!B3
+Хобби и развлечения,orders,market,110703,available,Маркет Вконтакте — категории!C3
+Хобби и развлечения,opens,partner,2474633,available,Маркет Вконтакте — категории!D3
+Хобби и развлечения,orders,partner,116999,available,Маркет Вконтакте — категории!E3
+Другое,opens,market,29082926,available,Маркет Вконтакте — категории!B4
+Другое,orders,market,41,available,Маркет Вконтакте — категории!C4
+Другое,opens,partner,160,available,Маркет Вконтакте — категории!D4
+Другое,orders,partner,0,available,Маркет Вконтакте — категории!E4
+Дом и дача,opens,market,26162824,available,Маркет Вконтакте — категории!B5
+Дом и дача,orders,market,35976,available,Маркет Вконтакте — категории!C5
+Дом и дача,opens,partner,24528887,available,Маркет Вконтакте — категории!D5
+Дом и дача,orders,partner,1413965,available,Маркет Вконтакте — категории!E5
+Продукты питания,opens,market,20393319,available,Маркет Вконтакте — категории!B6
+Продукты питания,orders,market,195355,available,Маркет Вконтакте — категории!C6
+Продукты питания,opens,partner,2488477,available,Маркет Вконтакте — категории!D6
+Продукты питания,orders,partner,170556,available,Маркет Вконтакте — категории!E6
+Красота и здоровье,opens,market,11345073,available,Маркет Вконтакте — категории!B7
+Красота и здоровье,orders,market,13022,available,Маркет Вконтакте — категории!C7
+Красота и здоровье,opens,partner,14113274,available,Маркет Вконтакте — категории!D7
+Красота и здоровье,orders,partner,1240324,available,Маркет Вконтакте — категории!E7
+Транспорт,opens,market,8590002,available,Маркет Вконтакте — категории!B8
+Транспорт,orders,market,8254,available,Маркет Вконтакте — категории!C8
+Транспорт,opens,partner,4569160,available,Маркет Вконтакте — категории!D8
+Транспорт,orders,partner,264510,available,Маркет Вконтакте — категории!E8
+Электроника,opens,market,5768728,available,Маркет Вконтакте — категории!B9
+Электроника,orders,market,4519,available,Маркет Вконтакте — категории!C9
+Электроника,opens,partner,2786808,available,Маркет Вконтакте — категории!D9
+Электроника,orders,partner,30616,available,Маркет Вконтакте — категории!E9
+Спорт и отдых,opens,market,5632947,available,Маркет Вконтакте — категории!B10
+Спорт и отдых,orders,market,7781,available,Маркет Вконтакте — категории!C10
+Спорт и отдых,opens,partner,4092740,available,Маркет Вконтакте — категории!D10
+Спорт и отдых,orders,partner,179554,available,Маркет Вконтакте — категории!E10
+Детские товары,opens,market,4859516,available,Маркет Вконтакте — категории!B11
+Детские товары,orders,market,10546,available,Маркет Вконтакте — категории!C11
+Детские товары,opens,partner,2478504,available,Маркет Вконтакте — категории!D11
+Детские товары,orders,partner,102803,available,Маркет Вконтакте — категории!E11
+Ремонт и строительство,opens,market,4823519,available,Маркет Вконтакте — категории!B12
+Ремонт и строительство,orders,market,1854,available,Маркет Вконтакте — категории!C12
+Ремонт и строительство,opens,partner,9737416,available,Маркет Вконтакте — категории!D12
+Ремонт и строительство,orders,partner,195020,available,Маркет Вконтакте — категории!E12
+Недвижимость,opens,market,2775277,available,Маркет Вконтакте — категории!B13
+Недвижимость,orders,market,1199,available,Маркет Вконтакте — категории!C13
+Недвижимость,opens,partner,732,available,Маркет Вконтакте — категории!D13
+Недвижимость,orders,partner,2,available,Маркет Вконтакте — категории!E13
+Бытовая техника,opens,market,2675368,available,Маркет Вконтакте — категории!B14
+Бытовая техника,orders,market,1388,available,Маркет Вконтакте — категории!C14
+Бытовая техника,opens,partner,4198701,available,Маркет Вконтакте — категории!D14
+Бытовая техника,orders,partner,113668,available,Маркет Вконтакте — категории!E14
+Товары для животных,opens,market,2167931,available,Маркет Вконтакте — категории!B15
+Товары для животных,orders,market,8600,available,Маркет Вконтакте — категории!C15
+Товары для животных,opens,partner,1793132,available,Маркет Вконтакте — категории!D15
+Товары для животных,orders,partner,146558,available,Маркет Вконтакте — категории!E15
+Все товары,opens,market,1441409,available,Маркет Вконтакте — категории!B16
+Все товары,orders,market,205,available,Маркет Вконтакте — категории!C16
+Все товары,opens,partner,3098084,available,Маркет Вконтакте — категории!D16
+Все товары,orders,partner,138949,available,Маркет Вконтакте — категории!E16
+Канцелярские товары,opens,market,1314960,available,Маркет Вконтакте — категории!B17
+Канцелярские товары,orders,market,5548,available,Маркет Вконтакте — категории!C17
+Канцелярские товары,opens,partner,1149841,available,Маркет Вконтакте — категории!D17
+Канцелярские товары,orders,partner,62971,available,Маркет Вконтакте — категории!E17
+Товары для геймеров,opens,market,1173700,available,Маркет Вконтакте — категории!B18
+Товары для геймеров,orders,market,1106,available,Маркет Вконтакте — категории!C18
+Товары для геймеров,opens,partner,346809,available,Маркет Вконтакте — категории!D18
+Товары для геймеров,orders,partner,3396,available,Маркет Вконтакте — категории!E18
+Не определена,opens,market,193354,available,Маркет Вконтакте — категории!B19
+Не определена,orders,market,159,available,Маркет Вконтакте — категории!C19
+Не определена,opens,partner,0,available,Маркет Вконтакте — категории!D19
+Не определена,orders,partner,117818,available,Маркет Вконтакте — категории!E19

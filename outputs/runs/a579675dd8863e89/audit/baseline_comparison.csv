@@ -1,0 +1,18 @@
+metric_id,current,reference,matches,source_sha256,note
+businesses,9754.0,9754,True,f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24,независимый ориентир старого плана; не используется в расчёте
+goods_businesses,4158.0,4158,True,f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24,независимый ориентир старого плана; не используется в расчёте
+selling_goods,285.0,285,True,f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24,независимый ориентир старого плана; не используется в расчёте
+goods_orders,3458.0,3458,True,f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24,независимый ориентир старого плана; не используется в расчёте
+goods_gmv,9865067.0,9865067,True,f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24,независимый ориентир старого плана; не используется в расчёте
+all_orders,3478.0,3478,True,f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24,независимый ориентир старого плана; не используется в расчёте
+all_sellers,298.0,298,True,f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24,независимый ориентир старого плана; не используется в расчёте
+original_missing,2570.0,2570,True,f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24,независимый ориентир старого плана; не используется в расчёте
+missing_aov_sellers,7.0,7,True,f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24,независимый ориентир старого плана; не используется в расчёте
+orders_without_current_checkout,14.0,14,True,f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24,независимый ориентир старого плана; не используется в расчёте
+candidates,966.0,966,True,f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24,независимый ориентир старого плана; не используется в расчёте
+market_orders,413740.0,413740,True,f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24,независимый ориентир старого плана; не используется в расчёте
+market_category_orders,435285.0,435285,True,f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24,независимый ориентир старого плана; не используется в расчёте
+partner_orders,4927525.0,4927525,True,f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24,независимый ориентир старого плана; не используется в расчёте
+partner_category_orders,4557517.0,4557517,True,f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24,независимый ориентир старого плана; не используется в расчёте
+partner_demography_orders,4557253.0,4557253,True,f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24,независимый ориентир старого плана; не используется в расчёте
+market_paid_orders,4903.0,4903,True,f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24,независимый ориентир старого плана; не используется в расчёте

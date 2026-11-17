@@ -1,0 +1,17 @@
+.venv/
+.vendor/
+.tools/
+.bootstrap/
+.cache/
+qa/
+deliverables/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+data/raw/
+data/processed/
+outputs/
+*.sqlite*
+.env*
+.DS_Store
+

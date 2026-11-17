@@ -1,0 +1,61 @@
+sex,age,metric_id,scope,value,availability,source_ref
+Ж,35–44,buyers,market,66329.0,available,Покупатели!C2
+Ж,35–44,orders,market,91318.0,available,Покупатели!D2
+Ж,35–44,buyers,partner,700024.0,available,Покупатели!E2
+Ж,35–44,orders,partner,1113644.0,available,Покупатели!F2
+Ж,25–34,buyers,market,54635.0,available,Покупатели!C3
+Ж,25–34,orders,market,75822.0,available,Покупатели!D3
+Ж,25–34,buyers,partner,363334.0,available,Покупатели!E3
+Ж,25–34,orders,partner,574071.0,available,Покупатели!F3
+Ж,45–54,buyers,market,37784.0,available,Покупатели!C4
+Ж,45–54,orders,market,53843.0,available,Покупатели!D4
+Ж,45–54,buyers,partner,520765.0,available,Покупатели!E4
+Ж,45–54,orders,partner,840735.0,available,Покупатели!F4
+Ж,18–24,buyers,market,31697.0,available,Покупатели!C5
+Ж,18–24,orders,market,44398.0,available,Покупатели!D5
+Ж,18–24,buyers,partner,111820.0,available,Покупатели!E5
+Ж,18–24,orders,partner,168479.0,available,Покупатели!F5
+М,25–34,buyers,market,27331.0,available,Покупатели!C6
+М,25–34,orders,market,38478.0,available,Покупатели!D6
+М,25–34,buyers,partner,121325.0,available,Покупатели!E6
+М,25–34,orders,partner,169361.0,available,Покупатели!F6
+Ж,55+,buyers,market,21451.0,available,Покупатели!C7
+Ж,55+,orders,market,31908.0,available,Покупатели!D7
+Ж,55+,buyers,partner,446182.0,available,Покупатели!E7
+Ж,55+,orders,partner,740608.0,available,Покупатели!F7
+М,35–44,buyers,market,20409.0,available,Покупатели!C8
+М,35–44,orders,market,26903.0,available,Покупатели!D8
+М,35–44,buyers,partner,255011.0,available,Покупатели!E8
+М,35–44,orders,partner,368869.0,available,Покупатели!F8
+М,18–24,buyers,market,16808.0,available,Покупатели!C9
+М,18–24,orders,market,23143.0,available,Покупатели!D9
+М,18–24,buyers,partner,35128.0,available,Покупатели!E9
+М,18–24,orders,partner,48007.0,available,Покупатели!F9
+М,45–54,buyers,market,7954.0,available,Покупатели!C10
+М,45–54,orders,market,10851.0,available,Покупатели!D10
+М,45–54,buyers,partner,186287.0,available,Покупатели!E10
+М,45–54,orders,partner,281495.0,available,Покупатели!F10
+М,55+,buyers,market,5105.0,available,Покупатели!C11
+М,55+,orders,market,7145.0,available,Покупатели!D11
+М,55+,buyers,partner,136092.0,available,Покупатели!E11
+М,55+,orders,partner,213133.0,available,Покупатели!F11
+Ж,до 18,buyers,market,3366.0,available,Покупатели!C12
+Ж,до 18,orders,market,4643.0,available,Покупатели!D12
+Ж,до 18,buyers,partner,15487.0,available,Покупатели!E12
+Ж,до 18,orders,partner,24186.0,available,Покупатели!F12
+М,до 18,buyers,market,2847.0,available,Покупатели!C13
+М,до 18,orders,market,4695.0,available,Покупатели!D13
+М,до 18,buyers,partner,6020.0,available,Покупатели!E13
+М,до 18,orders,partner,8876.0,available,Покупатели!F13
+Ж,н/д,buyers,market,134.0,available,Покупатели!C14
+Ж,н/д,orders,market,187.0,available,Покупатели!D14
+Ж,н/д,buyers,partner,2882.0,available,Покупатели!E14
+Ж,н/д,orders,partner,4621.0,available,Покупатели!F14
+М,н/д,buyers,market,,missing,Покупатели!C15
+М,н/д,orders,market,,missing,Покупатели!D15
+М,н/д,buyers,partner,648.0,available,Покупатели!E15
+М,н/д,orders,partner,945.0,available,Покупатели!F15
+н/д,н/д,buyers,market,,missing,Покупатели!C16
+н/д,н/д,orders,market,,missing,Покупатели!D16
+н/д,н/д,buyers,partner,157.0,available,Покупатели!E16
+н/д,н/д,orders,partner,223.0,available,Покупатели!F16

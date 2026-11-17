@@ -1,0 +1,17 @@
+{
+  "p0": 0.0685,
+  "p1": 0.0985,
+  "mde_pp": 3.0,
+  "alpha": 0.05,
+  "power": 0.8,
+  "ratio": 1.0,
+  "n_control": 1325,
+  "n_treatment": 1325,
+  "n_total": 2650,
+  "method": "Cohen h; NormalIndPower; two-sided",
+  "unit": "независимый business_id; связанные сообщества объединить по владельцу",
+  "limitation": "иллюстративный p0; для будущих кандидатов неизвестен; кластеризация требует поправки",
+  "available_power": 0.39441989647965436,
+  "available_n": 966,
+  "detectable_difference": 0.05228551836612145
+}

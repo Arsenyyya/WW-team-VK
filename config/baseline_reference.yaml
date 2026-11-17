@@ -1,0 +1,18 @@
+businesses: 9754
+goods_businesses: 4158
+selling_goods: 285
+goods_orders: 3458
+goods_gmv: 9865067
+all_orders: 3478
+all_sellers: 298
+original_missing: 2570
+missing_aov_sellers: 7
+orders_without_current_checkout: 14
+candidates: 966
+market_orders: 413740
+market_category_orders: 435285
+partner_orders: 4927525
+partner_category_orders: 4557517
+partner_demography_orders: 4557253
+market_paid_orders: 4903
+

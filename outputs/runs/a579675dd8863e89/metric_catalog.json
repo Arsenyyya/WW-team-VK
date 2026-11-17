@@ -1,0 +1,580 @@
+[
+  {
+    "metric_id": "businesses",
+    "value": 9754,
+    "unit": "count",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "businesses",
+    "population_filter": "весь соответствующий контур",
+    "numerator_ref": null,
+    "denominator_ref": null,
+    "formula": "прямой счёт / сумма отфильтрованных исходных полей",
+    "source_refs": [
+      "Бизнесы!A1:AB"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "goods_businesses",
+    "value": 4158,
+    "unit": "count",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "businesses",
+    "population_filter": "type∈{товарное, товарное и услужное}",
+    "numerator_ref": null,
+    "denominator_ref": null,
+    "formula": "прямой счёт / сумма отфильтрованных исходных полей",
+    "source_refs": [
+      "Бизнесы!A1:AB"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "selling_goods",
+    "value": 285,
+    "unit": "count",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "businesses",
+    "population_filter": "type∈{товарное, товарное и услужное}",
+    "numerator_ref": null,
+    "denominator_ref": null,
+    "formula": "прямой счёт / сумма отфильтрованных исходных полей",
+    "source_refs": [
+      "Бизнесы!A1:AB"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "goods_orders",
+    "value": 3458,
+    "unit": "count",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "businesses",
+    "population_filter": "type∈{товарное, товарное и услужное}",
+    "numerator_ref": null,
+    "denominator_ref": null,
+    "formula": "прямой счёт / сумма отфильтрованных исходных полей",
+    "source_refs": [
+      "Бизнесы!A1:AB"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "goods_gmv",
+    "value": 9865067,
+    "unit": "₽",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "businesses",
+    "population_filter": "type∈{товарное, товарное и услужное}",
+    "numerator_ref": null,
+    "denominator_ref": null,
+    "formula": "прямой счёт / сумма отфильтрованных исходных полей",
+    "source_refs": [
+      "Бизнесы!A1:AB"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "goods_aov",
+    "value": 2852.8244650086754,
+    "unit": "₽",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "businesses",
+    "population_filter": "type∈{товарное, товарное и услужное}",
+    "numerator_ref": "goods_gmv",
+    "denominator_ref": "goods_orders",
+    "formula": "ΣGMV / Σorders",
+    "source_refs": [
+      "Бизнесы!A1:AB"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "seller_share",
+    "value": 0.06854256854256854,
+    "unit": "ratio",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "businesses",
+    "population_filter": "type∈{товарное, товарное и услужное}",
+    "numerator_ref": "selling_goods",
+    "denominator_ref": "goods_businesses",
+    "formula": "число с orders>0 / число товарных и смешанных",
+    "source_refs": [
+      "Бизнесы!A1:AB"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "all_orders",
+    "value": 3478,
+    "unit": "count",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "businesses",
+    "population_filter": "весь соответствующий контур",
+    "numerator_ref": null,
+    "denominator_ref": null,
+    "formula": "прямой счёт / сумма отфильтрованных исходных полей",
+    "source_refs": [
+      "Бизнесы!A1:AB"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "all_sellers",
+    "value": 298,
+    "unit": "count",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "businesses",
+    "population_filter": "весь соответствующий контур",
+    "numerator_ref": null,
+    "denominator_ref": null,
+    "formula": "прямой счёт / сумма отфильтрованных исходных полей",
+    "source_refs": [
+      "Бизнесы!A1:AB"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "original_missing",
+    "value": 2570,
+    "unit": "count",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "businesses",
+    "population_filter": "весь соответствующий контур",
+    "numerator_ref": null,
+    "denominator_ref": null,
+    "formula": "прямой счёт / сумма отфильтрованных исходных полей",
+    "source_refs": [
+      "Бизнесы!A1:AB"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "missing_aov_sellers",
+    "value": 7,
+    "unit": "₽",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "businesses",
+    "population_filter": "весь соответствующий контур",
+    "numerator_ref": null,
+    "denominator_ref": null,
+    "formula": "прямой счёт / сумма отфильтрованных исходных полей",
+    "source_refs": [
+      "Бизнесы!A1:AB"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "orders_without_current_checkout",
+    "value": 14,
+    "unit": "count",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "businesses",
+    "population_filter": "весь соответствующий контур",
+    "numerator_ref": null,
+    "denominator_ref": null,
+    "formula": "прямой счёт / сумма отфильтрованных исходных полей",
+    "source_refs": [
+      "Бизнесы!A1:AB"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "candidates",
+    "value": 966,
+    "unit": "count",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "businesses",
+    "population_filter": "type∈{товарное, товарное и услужное}",
+    "numerator_ref": null,
+    "denominator_ref": null,
+    "formula": "прямой счёт / сумма отфильтрованных исходных полей",
+    "source_refs": [
+      "Бизнесы!A1:AB"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "market_orders",
+    "value": 413740.0,
+    "unit": "count",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "market",
+    "population_filter": "весь соответствующий контур",
+    "numerator_ref": null,
+    "denominator_ref": null,
+    "formula": "прямой счёт / сумма отфильтрованных исходных полей",
+    "source_refs": [
+      "Маркет Вконтакте — итоги; источники; категории"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "partner_orders",
+    "value": 4927525.0,
+    "unit": "count",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "partner",
+    "population_filter": "весь соответствующий контур",
+    "numerator_ref": null,
+    "denominator_ref": null,
+    "formula": "прямой счёт / сумма отфильтрованных исходных полей",
+    "source_refs": [
+      "Маркет Вконтакте — итоги; категории; Покупатели"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "market_paid_orders",
+    "value": 4903.0,
+    "unit": "count",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "market",
+    "population_filter": "весь соответствующий контур",
+    "numerator_ref": null,
+    "denominator_ref": null,
+    "formula": "прямой счёт / сумма отфильтрованных исходных полей",
+    "source_refs": [
+      "Маркет Вконтакте — итоги; источники; категории"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "market_category_orders",
+    "value": 435285.0,
+    "unit": "count",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "market",
+    "population_filter": "весь соответствующий контур",
+    "numerator_ref": null,
+    "denominator_ref": null,
+    "formula": "прямой счёт / сумма отфильтрованных исходных полей",
+    "source_refs": [
+      "Маркет Вконтакте — итоги; источники; категории"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "partner_category_orders",
+    "value": 4557517.0,
+    "unit": "count",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "partner",
+    "population_filter": "весь соответствующий контур",
+    "numerator_ref": null,
+    "denominator_ref": null,
+    "formula": "прямой счёт / сумма отфильтрованных исходных полей",
+    "source_refs": [
+      "Маркет Вконтакте — итоги; категории; Покупатели"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "partner_demography_orders",
+    "value": 4557253.0,
+    "unit": "count",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "partner",
+    "population_filter": "весь соответствующий контур",
+    "numerator_ref": null,
+    "denominator_ref": null,
+    "formula": "прямой счёт / сумма отфильтрованных исходных полей",
+    "source_refs": [
+      "Маркет Вконтакте — итоги; категории; Покупатели"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "homepage_opens",
+    "value": 412818.0,
+    "unit": "count",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "market",
+    "population_filter": "весь соответствующий контур",
+    "numerator_ref": null,
+    "denominator_ref": null,
+    "formula": "прямой счёт / сумма отфильтрованных исходных полей",
+    "source_refs": [
+      "Маркет Вконтакте — итоги; источники; категории"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "market_opens",
+    "value": 193512461.0,
+    "unit": "count",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "market",
+    "population_filter": "весь соответствующий контур",
+    "numerator_ref": null,
+    "denominator_ref": null,
+    "formula": "прямой счёт / сумма отфильтрованных исходных полей",
+    "source_refs": [
+      "Маркет Вконтакте — итоги; источники; категории"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "market_aov",
+    "value": 3781.473244066322,
+    "unit": "₽",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "market",
+    "population_filter": "весь соответствующий контур",
+    "numerator_ref": "market.gmv",
+    "denominator_ref": "market.orders",
+    "formula": "ΣGMV / Σorders",
+    "source_refs": [
+      "Маркет Вконтакте — итоги; источники; категории"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "partner_aov",
+    "value": 1038.9627013561576,
+    "unit": "₽",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "partner",
+    "population_filter": "весь соответствующий контур",
+    "numerator_ref": "partner.gmv",
+    "denominator_ref": "partner.orders",
+    "formula": "ΣGMV / Σorders",
+    "source_refs": [
+      "Маркет Вконтакте — итоги; категории; Покупатели"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "homepage_share",
+    "value": 0.002133288977188916,
+    "unit": "ratio",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "market",
+    "population_filter": "весь соответствующий контур",
+    "numerator_ref": "homepage_opens",
+    "denominator_ref": "market_opens",
+    "formula": "открытия с главной / все открытия товаров Маркета",
+    "source_refs": [
+      "Маркет Вконтакте — итоги; источники; категории"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "market_open_impression_ratio",
+    "value": 0.040502843402947956,
+    "unit": "ratio",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "market",
+    "population_filter": "весь соответствующий контур",
+    "numerator_ref": "market.opens",
+    "denominator_ref": "market.impressions",
+    "formula": "market.opens / market.impressions; описательное отношение событий",
+    "source_refs": [
+      "Маркет Вконтакте — итоги; источники; категории"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "market_order_open_ratio",
+    "value": 0.0021380535282428145,
+    "unit": "ratio",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "market",
+    "population_filter": "весь соответствующий контур",
+    "numerator_ref": "market.orders",
+    "denominator_ref": "market.opens",
+    "formula": "market.orders / market.opens; описательное отношение событий",
+    "source_refs": [
+      "Маркет Вконтакте — итоги; источники; категории"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "partner_open_impression_ratio",
+    "value": 0.015163778524646794,
+    "unit": "ratio",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "partner",
+    "population_filter": "весь соответствующий контур",
+    "numerator_ref": "partner.opens",
+    "denominator_ref": "partner.impressions",
+    "formula": "partner.opens / partner.impressions; описательное отношение событий",
+    "source_refs": [
+      "Маркет Вконтакте — итоги; категории; Покупатели"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "partner_order_open_ratio",
+    "value": 0.05671460579399688,
+    "unit": "ratio",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "partner",
+    "population_filter": "весь соответствующий контур",
+    "numerator_ref": "partner.orders",
+    "denominator_ref": "partner.opens",
+    "formula": "partner.orders / partner.opens; описательное отношение событий",
+    "source_refs": [
+      "Маркет Вконтакте — итоги; категории; Покупатели"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "dau_mau_ratio",
+    "value": 0.042506341453975374,
+    "unit": "ratio",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "market",
+    "population_filter": "весь соответствующий контур",
+    "numerator_ref": "общий средний DAU",
+    "denominator_ref": "общий MAU",
+    "formula": "средний DAU / MAU; охваты других метрик отличаются",
+    "source_refs": [
+      "Маркет Вконтакте — итоги; источники; категории"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "candidates_handmade",
+    "value": 97,
+    "unit": "count",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "businesses",
+    "population_filter": "type∈{товарное, товарное и услужное}",
+    "numerator_ref": null,
+    "denominator_ref": null,
+    "formula": "прямой счёт / сумма отфильтрованных исходных полей",
+    "source_refs": [
+      "Бизнесы!A1:AB"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "candidates_hobby",
+    "value": 51,
+    "unit": "count",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "businesses",
+    "population_filter": "type∈{товарное, товарное и услужное}",
+    "numerator_ref": null,
+    "denominator_ref": null,
+    "formula": "прямой счёт / сумма отфильтрованных исходных полей",
+    "source_refs": [
+      "Бизнесы!A1:AB"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "candidates_food",
+    "value": 103,
+    "unit": "count",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "businesses",
+    "population_filter": "type∈{товарное, товарное и услужное}",
+    "numerator_ref": null,
+    "denominator_ref": null,
+    "formula": "прямой счёт / сумма отфильтрованных исходных полей",
+    "source_refs": [
+      "Бизнесы!A1:AB"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "candidates_fashion",
+    "value": 94,
+    "unit": "count",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "businesses",
+    "population_filter": "type∈{товарное, товарное и услужное}",
+    "numerator_ref": null,
+    "denominator_ref": null,
+    "formula": "прямой счёт / сумма отфильтрованных исходных полей",
+    "source_refs": [
+      "Бизнесы!A1:AB"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  },
+  {
+    "metric_id": "gmv_top_10_share",
+    "value": 0.42739800956242874,
+    "unit": "ratio",
+    "period": "2026-09-01 — 2026-09-30",
+    "scope": "businesses",
+    "population_filter": "type∈{товарное, товарное и услужное}",
+    "numerator_ref": "GMV 10 крупнейших бизнесов",
+    "denominator_ref": "goods_gmv",
+    "formula": "ΣGMV top10 / ΣGMV",
+    "source_refs": [
+      "Бизнесы!A1:AB"
+    ],
+    "source_sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "availability": "available",
+    "interpretation_notes": "Синтетическая выборка чемпионата; без экстраполяции на платформу"
+  }
+]

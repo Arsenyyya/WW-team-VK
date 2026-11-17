@@ -1,0 +1,38 @@
+[
+  {
+    "path": "data/raw/case.pdf",
+    "original_name": "VK CASE СHAMP 2026.pdf",
+    "role": "case",
+    "bytes": 8240630,
+    "sha256": "122493c23cef8ac68680f35500dc97f45322eb2ccd5a29af338ea59d336f891f",
+    "available": true,
+    "period": null
+  },
+  {
+    "path": "data/raw/plan.pdf",
+    "original_name": "VK_CaseChamp_2026_plan.pdf",
+    "role": "working_plan",
+    "bytes": 169245,
+    "sha256": "3013cb91ca37184da147d8320625ee5e6db1bec1014a4d410fc120d260d3f202",
+    "available": true,
+    "period": null
+  },
+  {
+    "path": "data/raw/dataset.xlsx",
+    "original_name": "VK_CaseChamp_2026_Отборочныи_этап_Датасет_1.xlsx",
+    "role": "dataset",
+    "bytes": 1123405,
+    "sha256": "f31d02d4c5f8b48b6582229d6dbf8da3c64efcf0567c90151fb7edcfed160a24",
+    "available": true,
+    "period": "2026-09"
+  },
+  {
+    "path": "data/raw/brief.md",
+    "original_name": "VK_CaseChamp_Codex_6_1_Sol_prompt.md",
+    "role": "reference_brief",
+    "bytes": 94113,
+    "sha256": "ef72982b8d51b6fe62dfaa2582b03d12963ffa4d5bc24545508c29192fedaf5e",
+    "available": true,
+    "period": null
+  }
+]
