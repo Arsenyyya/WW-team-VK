@@ -47,7 +47,7 @@ if args.archive:
     files = []
     for folder in ["src", "app", "scripts", "config", "research", "docs", "assets", ".streamlit", "tests", "data/raw"]:
         files.extend(p for p in (root/folder).rglob("*") if p.is_file() and "__pycache__" not in p.parts)
-    files.extend(root/name for name in ["README.md", "pyproject.toml", "uv.lock", ".gitignore", "input_manifest.json"])
+    files.extend(root/name for name in ["README.md", "pyproject.toml", "uv.lock", ".gitignore", ".gitattributes", "input_manifest.json"])
     files.append(root/"outputs/current_run.json")
     files.extend(p for p in run.rglob("*") if p.is_file())
     files.extend(target/name for name in [*copies.values(), "START_HERE.md", "verification.json"])
